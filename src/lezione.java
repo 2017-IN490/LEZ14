@@ -1,5 +1,6 @@
-/*** implementazione del crivello di ertaostene
- *
+/*** implementazione del crivello di Eratostene ed altri algoritmi
+ *   sui numeri primi
+ *   
  * @author Marco Pedicini
  **/
 
@@ -11,7 +12,7 @@ public class lezione {
 		Sieve lista ;
 		
 		lista = new Sieve(args) ;
-		// test2
+		
 		lista.printmatrix();
 		
 		return ;
